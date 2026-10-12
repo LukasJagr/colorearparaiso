@@ -1,0 +1,200 @@
+{
+  "categories": [
+    {
+      "slug": "balony",
+      "name": "Balóny",
+      "label": "Omaľovánky balónov",
+      "sourceDirectory": "Balóny",
+      "coverFile": "Cover.jpg",
+      "coverAlt": "Teplovzdušné balóny letiace nad krajinou",
+      "description": "Omaľovánky teplovzdušných balónov nad horami, dedinou, morom aj rozprávkovým zámkom.",
+      "intro": "Vyberte si teplovzdušný balón nad horami, dedinou, farmou alebo rozprávkovým zámkom. Každý obrázok je pripravený na tlač vo formáte A4.",
+      "seoHeading": "Omaľovánky teplovzdušných balónov pre deti",
+      "seoParagraphs": [
+        "Teplovzdušné balóny dávajú deťom veľa priestoru na pestré farby. Môžu kombinovať odtiene na plášti balóna, vyfarbiť krajinu pod ním a doplniť vlastné oblaky, vtáky alebo slnko.",
+        "V tejto kategórii nájdete jednoduché obrázky balónov aj bohatšie scény s horami, majákom, farmou či zámkom. Omaľovánky si môžete bez registrácie vytlačiť na papier A4 alebo stiahnuť ako obrázok."
+      ],
+      "items": [
+        {
+          "slug": "teplovzdusny-balon-nad-krajinou",
+          "title": "Teplovzdušný balón nad krajinou",
+          "sourceFile": "Omalovánky Balony 1.jpg",
+          "alt": "Omaľovánka veľkého teplovzdušného balóna letiaceho nad cestou, poliami a dedinou",
+          "description": "Veľký teplovzdušný balón letí nad kľukatou cestou, poľami a malou dedinou. Omaľovánka na vytlačenie pre deti od 4 rokov.",
+          "age": "od 4 rokov",
+          "keywords": "balón krajina cesta polia dedina lietanie"
+        },
+        {
+          "slug": "balony-nad-horami",
+          "title": "Balóny nad horami",
+          "sourceFile": "Omalovánky Balony 2.jpg",
+          "alt": "Omaľovánka troch teplovzdušných balónov nad vysokými horami a ihličnatým lesom",
+          "description": "Tri teplovzdušné balóny sa vznášajú nad vysokými horami a ihličnatým lesom. Obrázok je pripravený na domácu tlač A4.",
+          "age": "od 5 rokov",
+          "keywords": "balóny hory les oblaky lietanie príroda"
+        },
+        {
+          "slug": "balon-nad-riekou-a-dedinou",
+          "title": "Balón nad riekou a dedinou",
+          "sourceFile": "Omalovánky Balony 3.jpg",
+          "alt": "Omaľovánka teplovzdušného balóna nad kľukatou riekou, mostom a dedinou",
+          "description": "Teplovzdušný balón letí nad kľukatou riekou, mostom a dedinou v kopcoch. Detailná omaľovánka pre tvorivé deti.",
+          "age": "od 5 rokov",
+          "keywords": "balón rieka most dedina kopce krajina"
+        },
+        {
+          "slug": "balon-nad-horskou-krajinou",
+          "title": "Balón nad horskou krajinou",
+          "sourceFile": "Omalovánky Balony 4.jpg",
+          "alt": "Omaľovánka teplovzdušného balóna letiaceho medzi oblakmi nad horami",
+          "description": "Veľký balón s ozdobným plášťom letí medzi oblakmi nad horskou krajinou. Omaľovánka zadarmo na vytlačenie.",
+          "age": "od 4 rokov",
+          "keywords": "balón hory oblaky vtáky lietanie"
+        },
+        {
+          "slug": "balon-nad-africkou-savanou",
+          "title": "Balón nad africkou savanou",
+          "sourceFile": "Omalovánky Balony 5.jpg",
+          "alt": "Omaľovánka teplovzdušného balóna nad africkou savanou s akáciami",
+          "description": "Teplovzdušný balón sa vznáša nad africkou savanou s typickými akáciami. Jednoduchý obrázok s veľkými plochami.",
+          "age": "od 4 rokov",
+          "keywords": "balón Afrika savana akácie príroda"
+        },
+        {
+          "slug": "balony-pri-majaku",
+          "title": "Balóny pri majáku",
+          "sourceFile": "Omalovánky Balony 6.jpg",
+          "alt": "Omaľovánka dvoch teplovzdušných balónov nad majákom a morským útesom",
+          "description": "Dva balóny letia nad majákom, domčekom a morským útesom. Scéna spája lietanie, more a pobrežnú krajinu.",
+          "age": "od 5 rokov",
+          "keywords": "balóny maják more útes pobrežie domček"
+        },
+        {
+          "slug": "balon-nad-farmou",
+          "title": "Balón nad farmou",
+          "sourceFile": "Omalovánky Balony 7.jpg",
+          "alt": "Omaľovánka teplovzdušného balóna nad farmou, poľom a vidieckou cestou",
+          "description": "Teplovzdušný balón letí nad farmou, poľami, plotom a vidieckou cestou. Omaľovánka s pokojnou krajinou na A4.",
+          "age": "od 5 rokov",
+          "keywords": "balón farma pole stodola plot vidiek"
+        },
+        {
+          "slug": "festival-teplovzdusnych-balonov",
+          "title": "Festival teplovzdušných balónov",
+          "sourceFile": "Omalovánky Balony 8.jpg",
+          "alt": "Omaľovánka piatich teplovzdušných balónov nad lúkou a horami",
+          "description": "Päť vzorovaných teplovzdušných balónov letí nad rozkvitnutou lúkou a horami. Veselá omaľovánka plná možností pre farby.",
+          "age": "od 5 rokov",
+          "keywords": "festival balónov balóny lúka hory kvety"
+        },
+        {
+          "slug": "balon-nad-rozpravkovym-zamkom",
+          "title": "Balón nad rozprávkovým zámkom",
+          "sourceFile": "Omalovánky Balony 9.jpg",
+          "alt": "Omaľovánka teplovzdušného balóna letiaceho nad rozprávkovým zámkom",
+          "description": "Veľký teplovzdušný balón prelieta nad rozprávkovým zámkom s vežami a vlajkami. Obrázok pre milovníkov lietania a rozprávok.",
+          "age": "od 5 rokov",
+          "keywords": "balón zámok rozprávka veže vlajky"
+        }
+      ]
+    },
+    {
+      "slug": "formule",
+      "name": "Formule",
+      "label": "Omaľovánky formulí",
+      "sourceDirectory": "Formule",
+      "coverFile": "Cover.jpg",
+      "coverAlt": "Dve pretekárske formule v zákrute na okruhu",
+      "description": "Omaľovánky rýchlych formulí na okruhu, v boxoch, na štarte aj pod šachovnicovou vlajkou.",
+      "intro": "Pretekárske formule na rovinke, v zákrute, v boxoch aj na štartovom rošte. Vyberte obrázok pre malého fanúšika motoršportu.",
+      "seoHeading": "Omaľovánky pretekárskych formulí pre deti",
+      "seoParagraphs": [
+        "Omaľovánky formulí potešia deti, ktoré majú rady rýchle autá a motoristické preteky. Pri vyfarbovaní môžu navrhnúť vlastné farby monopostu, prilby jazdca aj tímových kombinéz.",
+        "Nájdete tu formule na okruhu, v boxoch, na štarte aj v cieli. Všetky obrázky sú pripravené na papier A4 a môžete ich bez registrácie vytlačiť alebo stiahnuť."
+      ],
+      "items": [
+        {
+          "slug": "formula-na-pretekarskom-okruhu",
+          "title": "Formula na pretekárskom okruhu",
+          "sourceFile": "omalovanky-formule-01.jpg",
+          "alt": "Omaľovánka pretekárskej formule na okruhu pred tribúnou",
+          "description": "Pretekárska formula jazdí po okruhu pred veľkou tribúnou. Obrázok monopostu s výraznými detailmi je pripravený na tlač.",
+          "age": "od 5 rokov",
+          "keywords": "formula pretekárske auto okruh tribúna monopost"
+        },
+        {
+          "slug": "formula-na-rovinke",
+          "title": "Formula na rovinke",
+          "sourceFile": "omalovanky-formule-02.jpg",
+          "alt": "Omaľovánka rýchlej formule z bočného pohľadu na pretekárskej rovinke",
+          "description": "Rýchla formula uháňa po rovinke pretekárskeho okruhu. Dynamická omaľovánka monopostu z bočného pohľadu.",
+          "age": "od 5 rokov",
+          "keywords": "formula rovinka rýchlosť pretekárske auto okruh"
+        },
+        {
+          "slug": "formula-v-zakrute",
+          "title": "Formula v zákrute",
+          "sourceFile": "omalovanky-formule-03.jpg",
+          "alt": "Omaľovánka pretekárskej formule prechádzajúcej ostrou zákrutou",
+          "description": "Pretekárska formula prechádza ostrou zákrutou na okruhu. Obrázok ponúka veľké plochy auta aj jednoduché pozadie.",
+          "age": "od 5 rokov",
+          "keywords": "formula zákruta okruh preteky monopost"
+        },
+        {
+          "slug": "formula-v-boxoch",
+          "title": "Formula v boxoch",
+          "sourceFile": "omalovanky-formule-04.jpg",
+          "alt": "Omaľovánka formule v boxoch obklopenej mechanikmi pretekárskeho tímu",
+          "description": "Formula stojí v boxoch a mechanici pretekárskeho tímu sa pripravujú na servis. Detailná omaľovánka zo zákulisia pretekov.",
+          "age": "od 6 rokov",
+          "keywords": "formula boxy mechanici tím servis preteky"
+        },
+        {
+          "slug": "pretek-dvoch-formul",
+          "title": "Pretek dvoch formulí",
+          "sourceFile": "omalovanky-formule-05.jpg",
+          "alt": "Omaľovánka dvoch pretekárskych formulí jazdiacich vedľa seba pred tribúnou",
+          "description": "Dve formule spolu súperia na rovinke pred tribúnou plnou divákov. Akčná omaľovánka pre fanúšikov automobilových pretekov.",
+          "age": "od 6 rokov",
+          "keywords": "dve formule preteky súboj tribúna autá"
+        },
+        {
+          "slug": "formula-pod-sachovnicovou-vlajkou",
+          "title": "Formula pod šachovnicovou vlajkou",
+          "sourceFile": "omalovanky-formule-06.jpg",
+          "alt": "Omaľovánka formule prichádzajúcej do cieľa pod šachovnicovou vlajkou",
+          "description": "Formula prichádza do cieľa a nad traťou vlaje šachovnicová vlajka. Víťazná pretekárska scéna na vytlačenie.",
+          "age": "od 5 rokov",
+          "keywords": "formula cieľ šachovnicová vlajka víťazstvo preteky"
+        },
+        {
+          "slug": "formula-pohlad-zozadu",
+          "title": "Formula zozadu v zákrute",
+          "sourceFile": "omalovanky-formule-07.jpg",
+          "alt": "Omaľovánka pretekárskej formule zozadu pri prejazde zákrutou s bariérami",
+          "description": "Pohľad zozadu na formulu pri prejazde zákrutou s bezpečnostnými bariérami. Netradičná omaľovánka pretekárskeho auta.",
+          "age": "od 6 rokov",
+          "keywords": "formula zozadu zákruta bariéry okruh monopost"
+        },
+        {
+          "slug": "formula-na-startovom-roste",
+          "title": "Formula na štartovom rošte",
+          "sourceFile": "omalovanky-formule-08.jpg",
+          "alt": "Omaľovánka formule spredu na štartovom rošte pod pretekárskymi svetlami",
+          "description": "Formula čaká na štartovom rošte pod pretekárskymi svetlami. Symetrický pohľad spredu zvýrazňuje krídlo, kolesá aj jazdca.",
+          "age": "od 5 rokov",
+          "keywords": "formula štart štartový rošt svetlá preteky"
+        },
+        {
+          "slug": "formula-na-horskom-okruhu",
+          "title": "Formula na horskom okruhu",
+          "sourceFile": "omalovanky-formule-09.jpg",
+          "alt": "Omaľovánka pretekárskej formule na okruhu s vysokými horami v pozadí",
+          "description": "Pretekárska formula jazdí po okruhu pod vysokými horami a oblakmi. Omaľovánka spája rýchle auto s horskou krajinou.",
+          "age": "od 5 rokov",
+          "keywords": "formula hory okruh krajina pretekárske auto"
+        }
+      ]
+    }
+  ]
+}
