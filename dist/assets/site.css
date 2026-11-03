@@ -1559,6 +1559,23 @@ h3 {
     background: #fff;
   }
 
+  /* Keep the browser printout limited to the coloring sheet. This also
+     removes ads and consent controls injected by third-party scripts. */
+  body.print-coloring > :not(main),
+  body.print-coloring main > :not(.section:first-of-type),
+  body.print-coloring main > .section:first-of-type > :not(.container),
+  body.print-coloring main > .section:first-of-type > .container > :not(.coloring-sheet),
+  .print-coloring ins.adsbygoogle,
+  .print-coloring .google-auto-placed,
+  .print-coloring iframe[src*="googlesyndication"],
+  .print-coloring iframe[src*="doubleclick"],
+  .print-coloring [id^="google_ads"],
+  .print-coloring [id^="googlefc"],
+  .print-coloring [class^="googlefc"],
+  .print-coloring [class*=" googlefc"] {
+    display: none !important;
+  }
+
   .print-coloring .site-header,
   .print-coloring .breadcrumbs,
   .print-coloring .detail-panel,
