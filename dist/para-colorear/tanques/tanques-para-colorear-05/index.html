@@ -124,6 +124,58 @@
   }
 
   document.querySelectorAll("[data-print]").forEach((button) => {
-    button.addEventListener("click", () => window.print());
+    button.addEventListener("click", () => {
+      const printSource = document.querySelector('.coloring-sheet source[media="print"]');
+      const preview = document.querySelector(".coloring-sheet img");
+      const imageUrl = printSource?.getAttribute("srcset") || preview?.currentSrc || preview?.src;
+
+      if (!imageUrl) return;
+
+      const frame = document.createElement("iframe");
+      frame.title = "Imprimir dibujo para colorear";
+      frame.setAttribute("aria-hidden", "true");
+      frame.style.position = "fixed";
+      frame.style.width = "1px";
+      frame.style.height = "1px";
+      frame.style.right = "0";
+      frame.style.bottom = "0";
+      frame.style.border = "0";
+      frame.style.opacity = "0";
+
+      const removeFrame = () => {
+        window.setTimeout(() => frame.remove(), 1000);
+      };
+
+      frame.addEventListener("load", () => {
+        const printWindow = frame.contentWindow;
+        const image = frame.contentDocument?.querySelector("img");
+        if (!printWindow || !image) {
+          removeFrame();
+          return;
+        }
+
+        const startPrint = () => {
+          printWindow.addEventListener("afterprint", removeFrame, { once: true });
+          printWindow.focus();
+          printWindow.print();
+          window.setTimeout(removeFrame, 60000);
+        };
+
+        if (image.complete) startPrint();
+        else {
+          image.addEventListener("load", startPrint, { once: true });
+          image.addEventListener("error", removeFrame, { once: true });
+        }
+      }, { once: true });
+
+      const safeImageUrl = new URL(imageUrl, window.location.href).href
+        .replace(/&/g, "&amp;")
+        .replace(/"/g, "&quot;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+
+      frame.srcdoc = `<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Dibujo para colorear</title><style>@page{size:A4 portrait;margin:8mm}html,body{margin:0;padding:0;width:100%;height:100%;background:#fff}body{display:grid;place-items:start center}img{display:block;width:100%;height:auto;max-height:281mm;object-fit:contain}@media print{html,body{overflow:hidden}}</style></head><body><img src="${safeImageUrl}" alt=""></body></html>`;
+      document.body.appendChild(frame);
+    });
   });
 })();</script></body></html>
