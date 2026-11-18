@@ -1,0 +1,354 @@
+{
+  "categories": [
+    {
+      "name": "Mandalas",
+      "slug": "mandalas",
+      "route": "para-colorear/mandalas",
+      "label": "Mandalas para colorear",
+      "seoHeading": "Mandalas para colorear para niños",
+      "coverAlt": "Mandala floral en blanco y negro para colorear e imprimir",
+      "description": "Descubre mandalas para colorear e imprimir gratis: diseños florales, geométricos y de animales con líneas claras para niños.",
+      "intro": "Elige entre 6 mandalas originales con flores, formas geométricas y animales. Descarga o imprime gratis cada lámina en formato A4.",
+      "seoParagraphs": [
+        "Los mandalas para colorear combinan repetición, simetría y creatividad. Esta colección incluye diseños florales y geométricos, además de mandalas de animales con espacios claros para que los niños puedan concentrarse sin que el dibujo resulte demasiado difícil.",
+        "Abre el mandala que prefieras y utiliza el botón de impresión para obtener únicamente la lámina en papel A4. También puedes descargar la imagen original en alta resolución, sin registro y de forma gratuita."
+      ],
+      "items": [
+        {
+          "sourceFile": "mandala-floral.png",
+          "slug": "mandala-floral-para-colorear",
+          "title": "Mandala floral para colorear",
+          "alt": "Mandala floral simétrico con pétalos y hojas para colorear e imprimir gratis",
+          "description": "Mandala floral con grandes pétalos y hojas simétricas para colorear. Descarga gratis la lámina o imprímela en papel A4.",
+          "age": "a partir de 7 años",
+          "keywords": "mandala floral flores pétalos hojas relajante imprimir A4"
+        },
+        {
+          "sourceFile": "mandala-geometrico.png",
+          "slug": "mandala-geometrico-para-colorear",
+          "title": "Mandala geométrico para colorear",
+          "alt": "Mandala geométrico circular con rombos y formas repetidas para colorear",
+          "description": "Mandala geométrico de formas equilibradas y espacios amplios. Imprime gratis este dibujo A4 para una actividad tranquila y creativa.",
+          "age": "a partir de 7 años",
+          "keywords": "mandala geométrico rombos círculos simetría relajación imprimir"
+        },
+        {
+          "sourceFile": "mandala-mariposa.png",
+          "slug": "mandala-de-mariposa-para-colorear",
+          "title": "Mandala de mariposa para colorear",
+          "alt": "Mariposa con alas decoradas como un mandala floral para colorear",
+          "description": "Mariposa simétrica con motivos florales dentro de sus alas. Descarga o imprime gratis este mandala infantil en alta resolución.",
+          "age": "a partir de 7 años",
+          "keywords": "mandala mariposa alas flores simétrico colorear gratis"
+        },
+        {
+          "sourceFile": "mandala-buho.png",
+          "slug": "mandala-de-buho-para-colorear",
+          "title": "Mandala de búho para colorear",
+          "alt": "Búho decorado con plumas y flores de mandala para colorear e imprimir",
+          "description": "Búho de grandes ojos con plumas convertidas en motivos de mandala. Lámina gratis preparada para imprimir y colorear en A4.",
+          "age": "a partir de 7 años",
+          "keywords": "mandala búho ave plumas flores niños imprimir gratis"
+        },
+        {
+          "sourceFile": "mandala-tortuga-marina.png",
+          "slug": "mandala-de-tortuga-marina-para-colorear",
+          "title": "Mandala de tortuga marina para colorear",
+          "alt": "Tortuga marina con caparazón de mandala floral para colorear",
+          "description": "Tortuga marina vista desde arriba con un mandala floral en el caparazón. Descarga la imagen gratis o imprímela en A4.",
+          "age": "a partir de 7 años",
+          "keywords": "mandala tortuga marina caparazón océano colorear imprimir"
+        },
+        {
+          "sourceFile": "mandala-corazon-y-estrellas.png",
+          "slug": "mandala-de-corazon-y-estrellas-para-colorear",
+          "title": "Mandala de corazón y estrellas para colorear",
+          "alt": "Mandala en forma de corazón con flores y estrellas para colorear",
+          "description": "Corazón decorado con flores y estrellas en estilo mandala. Imprime gratis esta lámina A4 con espacios claros para colorear.",
+          "age": "a partir de 7 años",
+          "keywords": "mandala corazón estrellas flores amor colorear gratis"
+        }
+      ]
+    },
+    {
+      "name": "Kawaii",
+      "slug": "kawaii",
+      "route": "para-colorear/kawaii",
+      "label": "Dibujos kawaii para colorear",
+      "seoHeading": "Dibujos kawaii para colorear para niños",
+      "coverAlt": "Helado y donut kawaii sonrientes para colorear e imprimir",
+      "description": "Descubre dibujos kawaii para colorear e imprimir gratis: comida, animales, arcoíris y objetos adorables con trazos fáciles.",
+      "intro": "Colorea 6 dibujos kawaii originales con caritas adorables, formas redondas y espacios grandes. Todos se pueden imprimir o descargar gratis.",
+      "seoParagraphs": [
+        "Los dibujos kawaii se reconocen por sus formas redondas, ojos grandes y expresiones alegres. Aquí encontrarás comida kawaii, un gatito escolar, un arcoíris y un cohete espacial, todos creados con líneas gruesas y zonas amplias para los más pequeños.",
+        "Cada dibujo kawaii está disponible gratis y sin registro. Puedes imprimirlo directamente en una hoja A4 o descargar el archivo original para colorearlo en casa, en el colegio o durante un viaje."
+      ],
+      "items": [
+        {
+          "sourceFile": "helado-y-donut-kawaii.png",
+          "slug": "helado-y-donut-kawaii-para-colorear",
+          "title": "Helado y donut kawaii para colorear",
+          "alt": "Helado y donut kawaii sonrientes con estrellas para colorear",
+          "description": "Un helado y un donut kawaii posan juntos con grandes sonrisas. Descarga gratis el dibujo o imprímelo en papel A4.",
+          "age": "a partir de 4 años",
+          "keywords": "helado donut kawaii comida adorable colorear imprimir"
+        },
+        {
+          "sourceFile": "nube-y-arcoiris-kawaii.png",
+          "slug": "nube-y-arcoiris-kawaii-para-colorear",
+          "title": "Nube y arcoíris kawaii para colorear",
+          "alt": "Nube sonriente con arcoíris, estrellas y gotas kawaii para colorear",
+          "description": "Nube feliz, arcoíris y pequeñas estrellas en estilo kawaii. Lámina infantil gratis para descargar o imprimir en A4.",
+          "age": "a partir de 4 años",
+          "keywords": "nube arcoíris kawaii estrellas gotas cielo colorear"
+        },
+        {
+          "sourceFile": "gatito-con-mochila-kawaii.png",
+          "slug": "gatito-con-mochila-kawaii-para-colorear",
+          "title": "Gatito con mochila kawaii para colorear",
+          "alt": "Gatito kawaii sentado con mochila escolar y lápiz para colorear",
+          "description": "Tierno gatito kawaii preparado para el colegio con mochila y lápiz. Imprime o descarga gratis esta lámina A4.",
+          "age": "a partir de 4 años",
+          "keywords": "gatito mochila colegio lápiz kawaii animal colorear"
+        },
+        {
+          "sourceFile": "aguacate-y-tostada-kawaii.png",
+          "slug": "aguacate-y-tostada-kawaii-para-colorear",
+          "title": "Aguacate y tostada kawaii para colorear",
+          "alt": "Aguacate y tostada kawaii con caras felices para colorear",
+          "description": "Aguacate y tostada kawaii aparecen como dos amigos sonrientes. Dibujo gratis con formas sencillas para imprimir y colorear.",
+          "age": "a partir de 4 años",
+          "keywords": "aguacate tostada kawaii comida amigos colorear gratis"
+        },
+        {
+          "sourceFile": "bubble-tea-kawaii.png",
+          "slug": "bubble-tea-kawaii-para-colorear",
+          "title": "Bubble tea kawaii para colorear",
+          "alt": "Vaso de bubble tea kawaii con pajita y perlas para colorear",
+          "description": "Vaso de bubble tea kawaii con pajita, perlas y una gran sonrisa. Descarga la imagen gratis o imprímela en formato A4.",
+          "age": "a partir de 4 años",
+          "keywords": "bubble tea kawaii bebida perlas vaso colorear imprimir"
+        },
+        {
+          "sourceFile": "cohete-espacial-kawaii.png",
+          "slug": "cohete-espacial-kawaii-para-colorear",
+          "title": "Cohete espacial kawaii para colorear",
+          "alt": "Cohete kawaii entre planetas, luna y estrellas para colorear",
+          "description": "Cohete sonriente viaja entre planetas y estrellas en una escena kawaii. Lámina gratuita lista para imprimir y colorear.",
+          "age": "a partir de 4 años",
+          "keywords": "cohete espacio planetas luna estrellas kawaii colorear"
+        }
+      ]
+    },
+    {
+      "name": "Capibaras",
+      "slug": "capibaras",
+      "route": "para-colorear/animales/capibaras",
+      "label": "Dibujos de capibaras para colorear",
+      "seoHeading": "Capibaras para colorear para niños",
+      "coverAlt": "Capibara con una naranja en la cabeza para colorear",
+      "description": "Descubre capibaras para colorear e imprimir gratis: capibaras kawaii con naranja, patito, sandía y escenas divertidas.",
+      "intro": "Elige entre 6 capibaras originales y adorables. Imprime gratis cada dibujo en A4 o descarga la imagen en alta resolución.",
+      "seoParagraphs": [
+        "Las capibaras se han convertido en uno de los animales favoritos de los niños por su aspecto tranquilo y simpático. En estos dibujos aparecen con una naranja, un patito, una sandía, un libro y otros detalles tiernos inspirados en su vida cerca del agua.",
+        "Todos los dibujos de capibaras para colorear son originales, gratuitos y fáciles de imprimir. Elige una escena, abre su página y descarga la imagen en alta resolución o imprímela directamente en formato A4."
+      ],
+      "items": [
+        {
+          "sourceFile": "capibara-con-naranja.png",
+          "slug": "capibara-con-naranja-para-colorear",
+          "title": "Capibara con naranja para colorear",
+          "alt": "Capibara sentada con una naranja sobre la cabeza para colorear",
+          "description": "Capibara tranquila con una pequeña naranja equilibrada sobre la cabeza. Dibujo gratis para descargar o imprimir en A4.",
+          "age": "a partir de 4 años",
+          "keywords": "capibara naranja kawaii animal tierno colorear imprimir"
+        },
+        {
+          "sourceFile": "capibara-en-aguas-termales.png",
+          "slug": "capibara-en-aguas-termales-para-colorear",
+          "title": "Capibara en aguas termales para colorear",
+          "alt": "Capibara relajada en aguas termales con naranjas para colorear",
+          "description": "Capibara descansando en aguas termales entre rocas y naranjas flotantes. Lámina gratis preparada para imprimir y colorear.",
+          "age": "a partir de 5 años",
+          "keywords": "capibara aguas termales naranjas relajada kawaii colorear"
+        },
+        {
+          "sourceFile": "capibaras-comiendo-sandia.png",
+          "slug": "capibaras-comiendo-sandia-para-colorear",
+          "title": "Capibaras comiendo sandía para colorear",
+          "alt": "Dos capibaras compartiendo una sandía en un picnic para colorear",
+          "description": "Dos capibaras amigas comparten una gran rodaja de sandía durante un picnic. Imprime gratis esta escena infantil en A4.",
+          "age": "a partir de 4 años",
+          "keywords": "capibaras sandía picnic amigas animal colorear gratis"
+        },
+        {
+          "sourceFile": "capibara-con-patito.png",
+          "slug": "capibara-con-patito-para-colorear",
+          "title": "Capibara con patito para colorear",
+          "alt": "Capibara junto a un pequeño patito cerca del agua para colorear",
+          "description": "Una capibara conoce a un pequeño patito junto al estanque. Dibujo sencillo y gratuito para imprimir o descargar.",
+          "age": "a partir de 4 años",
+          "keywords": "capibara patito estanque animales amigos colorear imprimir"
+        },
+        {
+          "sourceFile": "capibara-leyendo-un-libro.png",
+          "slug": "capibara-leyendo-un-libro-para-colorear",
+          "title": "Capibara leyendo un libro para colorear",
+          "alt": "Capibara leyendo un libro bajo un árbol para colorear",
+          "description": "Capibara sentada bajo un árbol mientras lee un libro abierto. Descarga o imprime gratis esta tranquila lámina A4.",
+          "age": "a partir de 5 años",
+          "keywords": "capibara libro lectura árbol niños colorear gratis"
+        },
+        {
+          "sourceFile": "capibara-con-sombrero-de-paja.png",
+          "slug": "capibara-con-sombrero-de-paja-para-colorear",
+          "title": "Capibara con sombrero de paja para colorear",
+          "alt": "Capibara con sombrero de paja y una flor para colorear",
+          "description": "Capibara sonriente con sombrero de paja y una flor en el campo. Lámina original gratis para imprimir y colorear.",
+          "age": "a partir de 4 años",
+          "keywords": "capibara sombrero paja flor campo kawaii colorear"
+        }
+      ]
+    },
+    {
+      "name": "Ajolotes",
+      "slug": "ajolotes",
+      "route": "para-colorear/animales/ajolotes",
+      "label": "Dibujos de ajolotes para colorear",
+      "seoHeading": "Ajolotes para colorear para niños",
+      "coverAlt": "Ajolote sonriente entre plantas acuáticas para colorear",
+      "description": "Descubre ajolotes para colorear e imprimir gratis: ajolotes kawaii, amigos, coronas y escenas submarinas para niños.",
+      "intro": "Encuentra 6 dibujos originales de ajolotes con branquias, burbujas y plantas acuáticas. Descárgalos o imprímelos gratis en A4.",
+      "seoParagraphs": [
+        "El ajolote es un anfibio mexicano muy reconocible por sus branquias externas con aspecto de plumas. Esta colección presenta ajolotes tiernos y fáciles de colorear entre plantas acuáticas, burbujas y pequeñas escenas de fantasía.",
+        "Selecciona tu dibujo de ajolote favorito para imprimirlo gratis en una hoja A4. También puedes descargar la imagen original en alta resolución sin crear una cuenta ni completar ningún formulario."
+      ],
+      "items": [
+        {
+          "sourceFile": "ajolote-entre-plantas-acuaticas.png",
+          "slug": "ajolote-entre-plantas-acuaticas-para-colorear",
+          "title": "Ajolote entre plantas acuáticas para colorear",
+          "alt": "Ajolote sonriente nadando entre plantas acuáticas y burbujas para colorear",
+          "description": "Ajolote sonriente nada entre plantas acuáticas y burbujas. Descarga gratis el dibujo o imprímelo en papel A4.",
+          "age": "a partir de 4 años",
+          "keywords": "ajolote plantas acuáticas burbujas nadando colorear imprimir"
+        },
+        {
+          "sourceFile": "ajolote-sobre-una-roca.png",
+          "slug": "ajolote-sobre-una-roca-para-colorear",
+          "title": "Ajolote sobre una roca para colorear",
+          "alt": "Ajolote descansando sobre una roca bajo el agua para colorear",
+          "description": "Ajolote de branquias plumosas descansa sobre una roca rodeada de hojas. Lámina gratis lista para imprimir y colorear.",
+          "age": "a partir de 4 años",
+          "keywords": "ajolote roca agua branquias animal mexicano colorear"
+        },
+        {
+          "sourceFile": "dos-ajolotes-amigos.png",
+          "slug": "dos-ajolotes-amigos-para-colorear",
+          "title": "Dos ajolotes amigos para colorear",
+          "alt": "Dos ajolotes amigos nadando juntos entre burbujas para colorear",
+          "description": "Dos ajolotes nadan juntos entre burbujas y plantas. Imprime gratis esta escena amistosa en A4 o descarga la imagen.",
+          "age": "a partir de 4 años",
+          "keywords": "dos ajolotes amigos nadando burbujas colorear gratis"
+        },
+        {
+          "sourceFile": "ajolote-kawaii-con-corazones.png",
+          "slug": "ajolote-kawaii-con-corazones-para-colorear",
+          "title": "Ajolote kawaii con corazones para colorear",
+          "alt": "Ajolote kawaii sonriente rodeado de corazones para colorear",
+          "description": "Ajolote kawaii con grandes branquias y corazones flotando alrededor. Dibujo gratuito con formas amplias para niños.",
+          "age": "a partir de 4 años",
+          "keywords": "ajolote kawaii corazones adorable tierno colorear imprimir"
+        },
+        {
+          "sourceFile": "ajolote-con-corona.png",
+          "slug": "ajolote-con-corona-para-colorear",
+          "title": "Ajolote con corona para colorear",
+          "alt": "Ajolote con una pequeña corona entre nenúfares para colorear",
+          "description": "Ajolote de cuento con una pequeña corona nada entre nenúfares. Descarga o imprime gratis esta lámina original A4.",
+          "age": "a partir de 4 años",
+          "keywords": "ajolote corona cuento nenúfares kawaii colorear gratis"
+        },
+        {
+          "sourceFile": "ajolote-explorador.png",
+          "slug": "ajolote-explorador-para-colorear",
+          "title": "Ajolote explorador para colorear",
+          "alt": "Ajolote explorando una cueva submarina con un caracol para colorear",
+          "description": "Ajolote curioso explora una pequeña cueva submarina acompañado por un caracol. Imprime gratis el dibujo en formato A4.",
+          "age": "a partir de 5 años",
+          "keywords": "ajolote explorador cueva submarina caracol colorear imprimir"
+        }
+      ]
+    },
+    {
+      "name": "Fútbol",
+      "slug": "futbol",
+      "route": "para-colorear/futbol",
+      "label": "Dibujos de fútbol para colorear",
+      "seoHeading": "Fútbol para colorear para niños",
+      "coverAlt": "Niño chutando un balón de fútbol hacia la portería para colorear",
+      "description": "Descubre dibujos de fútbol para colorear e imprimir gratis: jugadores, porteros, balones, botas y trofeos sin marcas.",
+      "intro": "Elige entre 6 dibujos originales de fútbol infantil, porterías, balones y trofeos. Todos están listos para imprimir gratis en A4.",
+      "seoParagraphs": [
+        "Estos dibujos de fútbol para colorear muestran goles, porteros, jugadores infantiles, botas, balones y una copa. Las equipaciones son genéricas y no incluyen escudos ni marcas, de modo que cada niño puede inventar los colores de su propio equipo.",
+        "Todas las láminas de fútbol se pueden imprimir gratis en papel A4 o descargar en alta resolución. Elige una escena y prepara lápices o rotuladores para diseñar el uniforme, el balón y el campo."
+      ],
+      "items": [
+        {
+          "sourceFile": "nino-chutando-un-balon.png",
+          "slug": "nino-chutando-un-balon-de-futbol-para-colorear",
+          "title": "Niño chutando un balón de fútbol para colorear",
+          "alt": "Niño chutando un balón hacia la portería en un dibujo para colorear",
+          "description": "Joven futbolista chuta el balón hacia la portería. Dibujo deportivo original y gratuito para imprimir en papel A4.",
+          "age": "a partir de 5 años",
+          "keywords": "niño futbolista chutando balón portería fútbol colorear"
+        },
+        {
+          "sourceFile": "portero-parando-un-balon.png",
+          "slug": "portero-parando-un-balon-para-colorear",
+          "title": "Portero parando un balón para colorear",
+          "alt": "Portero infantil atrapando un balón delante de la portería para colorear",
+          "description": "Portero joven se lanza para atrapar el balón frente a la red. Descarga o imprime gratis esta lámina de fútbol.",
+          "age": "a partir de 5 años",
+          "keywords": "portero parada balón portería fútbol infantil colorear"
+        },
+        {
+          "sourceFile": "copa-y-balon-de-futbol.png",
+          "slug": "copa-y-balon-de-futbol-para-colorear",
+          "title": "Copa y balón de fútbol para colorear",
+          "alt": "Trofeo y balón de fútbol con confeti para colorear e imprimir",
+          "description": "Gran copa de campeón junto a un balón de fútbol y confeti. Lámina gratis sin escudos ni marcas para imprimir y colorear.",
+          "age": "a partir de 5 años",
+          "keywords": "copa trofeo balón campeón fútbol colorear imprimir"
+        },
+        {
+          "sourceFile": "botas-y-balon-de-futbol.png",
+          "slug": "botas-y-balon-de-futbol-para-colorear",
+          "title": "Botas y balón de fútbol para colorear",
+          "alt": "Botas de fútbol junto a un balón y una portería para colorear",
+          "description": "Botas deportivas y balón descansan sobre el césped delante de una portería. Dibujo gratuito preparado para papel A4.",
+          "age": "a partir de 5 años",
+          "keywords": "botas balón césped portería equipación fútbol colorear"
+        },
+        {
+          "sourceFile": "partido-de-futbol-infantil.png",
+          "slug": "partido-de-futbol-infantil-para-colorear",
+          "title": "Partido de fútbol infantil para colorear",
+          "alt": "Dos niños jugando un partido de fútbol junto a la portería para colorear",
+          "description": "Dos niños juegan un partido amistoso mientras uno regatea el balón. Imprime gratis esta escena deportiva en A4.",
+          "age": "a partir de 5 años",
+          "keywords": "partido fútbol infantil niños regate portería colorear"
+        },
+        {
+          "sourceFile": "balon-entrando-en-la-porteria.png",
+          "slug": "balon-entrando-en-la-porteria-para-colorear",
+          "title": "Balón entrando en la portería para colorear",
+          "alt": "Balón de fútbol entrando en la red de la portería para colorear",
+          "description": "El balón entra por la escuadra y mueve la red de la portería. Descarga o imprime gratis este dibujo de gol en alta resolución.",
+          "age": "a partir de 5 años",
+          "keywords": "balón gol portería red escuadra fútbol colorear imprimir"
+        }
+      ]
+    }
+  ]
+}

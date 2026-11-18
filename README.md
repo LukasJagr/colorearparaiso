@@ -9,8 +9,10 @@ Statický španělský web s obrázky k vybarvení pro produkční doménu
 - `scripts/generate-coloring-pages.mjs` – generátor kategorií, detailů, metadat,
   strukturovaných dat a sitemapy.
 - `scripts/inline-assets.mjs` – vloží CSS a JavaScript přímo do HTML.
-- `data/generated-catalog.json` – vygenerovaný katalog 76 kategorií a 666 obrázků.
+- `data/generated-catalog.json` – vygenerovaný katalog 81 kategorií a 696 obrázků.
+- `data/supplemental-categories.json` – španělská SEO metadata pro nově generované kategorie.
 - `source-assets/` – zdrojové logo a obrázek homepage.
+- `source-assets/generated-colorings/` – originální omalovánky pro kategorie mandalas, kawaii, capibaras, ajolotes a fútbol.
 
 ## Nasazení na Cloudflare Pages
 

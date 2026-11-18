@@ -6,8 +6,10 @@ const root = path.resolve(import.meta.dirname, "..");
 const dist = path.join(root, "dist");
 const sourceRoot = process.argv[2];
 const baseUrl = "https://colorearparaiso.com";
-const generatedOn = "2026-10-12";
+const generatedOn = "2026-11-18";
 const imageExtensions = new Set([".jpg", ".jpeg", ".png", ".webp"]);
+const supplementalRoot = path.join(root, "source-assets/generated-colorings");
+const supplementalCatalog = JSON.parse(fs.readFileSync(path.join(root, "data/supplemental-categories.json"), "utf8"));
 
 if (!sourceRoot || !fs.existsSync(sourceRoot)) {
   throw new Error("Zadajte existujúci zdrojový priečinok s omaľovánkami.");
@@ -281,6 +283,50 @@ for (const [sourceDirectory, name, slug, route, seoHeading] of categoryDefinitio
   categories.push(category);
 }
 
+for (const definition of supplementalCatalog.categories) {
+  const categoryDir = path.join(supplementalRoot, definition.slug);
+  if (!fs.existsSync(categoryDir)) throw new Error(`Falta la carpeta suplementaria ${categoryDir}`);
+  const category = {
+    name: definition.name,
+    slug: definition.slug,
+    route: definition.route,
+    label: definition.label,
+    coverAlt: definition.coverAlt,
+    description: definition.description,
+    intro: definition.intro,
+    seoHeading: definition.seoHeading,
+    seoParagraphs: definition.seoParagraphs,
+    items: []
+  };
+  for (const itemDefinition of definition.items) {
+    const source = path.join(categoryDir, itemDefinition.sourceFile);
+    if (!fs.existsSync(source)) throw new Error(`Falta la imagen suplementaria ${source}`);
+    const metadata = await sharp(source).metadata();
+    const extension = path.extname(source).toLocaleLowerCase("en") === ".jpeg" ? ".jpg" : path.extname(source).toLocaleLowerCase("en");
+    const outputDir = path.join(dist, "assets/coloring-pages", definition.slug);
+    fs.mkdirSync(outputDir, { recursive: true });
+    fs.copyFileSync(source, path.join(outputDir, `${itemDefinition.slug}${extension}`));
+    for (const width of [320, 720]) {
+      await sharp(source).resize({ width, withoutEnlargement: true }).webp({ quality: width === 720 ? 82 : 78 }).toFile(path.join(outputDir, `${itemDefinition.slug}-${width}.webp`));
+    }
+    category.items.push({
+      ...itemDefinition,
+      extension,
+      mime: mimeByExtension[extension] || metadata.format,
+      width: metadata.width,
+      height: metadata.height,
+      orientation: metadata.width > metadata.height ? "Horizontal" : "Vertical"
+    });
+  }
+  const coverSource = path.join(categoryDir, definition.items[0].sourceFile);
+  const coverOut = path.join(dist, "assets/categories");
+  fs.mkdirSync(coverOut, { recursive: true });
+  for (const width of [320, 640]) {
+    await sharp(coverSource).resize(width, width, { fit: "cover", position: "top" }).webp({ quality: width === 640 ? 84 : 82 }).toFile(path.join(coverOut, `${definition.slug}-cover-${width}.webp`));
+  }
+  categories.push(category);
+}
+
 const prepared = categories.flatMap((category) => category.items.map((item) => ({ category, item })));
 const homeCover = {
   source: path.join(root, "source-assets/homepage/omalovanky-na-vytlacenie-zadarmo.jpg"),
@@ -307,7 +353,8 @@ for (const width of [228, 456]) {
 for (const category of categories) {
   const canonical = `${baseUrl}/${category.route}/`;
   const structuredData = { "@context": "https://schema.org", "@graph": [{ "@type": "CollectionPage", name: category.label, description: category.description, url: canonical, inLanguage: "es", mainEntity: { "@type": "ItemList", numberOfItems: category.items.length, itemListElement: category.items.map((item, index) => ({ "@type": "ListItem", position: index + 1, name: item.title, url: `${canonical}${item.slug}/` })) } }, { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: `${baseUrl}/` }, { "@type": "ListItem", position: 2, name: "Dibujos para colorear", item: `${baseUrl}/para-colorear/` }, { "@type": "ListItem", position: 3, name: category.name, item: canonical }] }] };
-  const body = `${header("catalog")}<main id="contenido-principal">${breadcrumbs([{ name: "Inicio", href: "/" }, { name: "Dibujos para colorear", href: "/para-colorear/" }, { name: category.name }])}<section class="page-hero"><div class="container"><div><p class="eyebrow">Categoría de dibujos</p><h1>${escapeHtml(category.label)}</h1><p>${escapeHtml(category.intro)}</p></div><div class="category-hero-meta"><strong>${category.items.length}</strong><span>dibujos<br>para imprimir</span></div></div></section><section class="section" aria-labelledby="lista-${category.slug}"><div class="container"><div class="catalog-toolbar"><h2 id="lista-${category.slug}">Elige un dibujo</h2><span class="result-count">${category.items.length} dibujos</span></div><div class="coloring-grid">${category.items.map((item) => coloringCard(category, item)).join("")}</div></div></section><aside class="ad-slot" aria-label="Espacio reservado para publicidad"></aside><section class="section section-tint"><div class="container seo-copy"><p class="eyebrow">Creatividad para niños</p><h2>${escapeHtml(category.seoHeading)} gratis</h2><p>Estos dibujos de ${escapeHtml(lower(category.name))} ayudan a desarrollar la motricidad fina, la concentración y la imaginación. Cada niño puede elegir sus colores y convertir cada lámina en una creación única.</p><p>Todos los dibujos están disponibles sin registro. Abre tu favorito, imprímelo en papel A4 o descarga el archivo original en alta resolución.</p></div></section></main>${footer(categories)}`;
+  const categorySeoParagraphs = category.seoParagraphs || [`Estos dibujos de ${lower(category.name)} ayudan a desarrollar la motricidad fina, la concentración y la imaginación. Cada niño puede elegir sus colores y convertir cada lámina en una creación única.`, "Todos los dibujos están disponibles sin registro. Abre tu favorito, imprímelo en papel A4 o descarga el archivo original en alta resolución."];
+  const body = `${header("catalog")}<main id="contenido-principal">${breadcrumbs([{ name: "Inicio", href: "/" }, { name: "Dibujos para colorear", href: "/para-colorear/" }, { name: category.name }])}<section class="page-hero"><div class="container"><div><p class="eyebrow">Categoría de dibujos</p><h1>${escapeHtml(category.label)}</h1><p>${escapeHtml(category.intro)}</p></div><div class="category-hero-meta"><strong>${category.items.length}</strong><span>dibujos<br>para imprimir</span></div></div></section><section class="section" aria-labelledby="lista-${category.slug}"><div class="container"><div class="catalog-toolbar"><h2 id="lista-${category.slug}">Elige un dibujo</h2><span class="result-count">${category.items.length} dibujos</span></div><div class="coloring-grid">${category.items.map((item) => coloringCard(category, item)).join("")}</div></div></section><aside class="ad-slot" aria-label="Espacio reservado para publicidad"></aside><section class="section section-tint"><div class="container seo-copy"><p class="eyebrow">Creatividad para niños</p><h2>${escapeHtml(category.seoHeading)} gratis</h2>${categorySeoParagraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}</div></section></main>${footer(categories)}`;
   write(path.join(dist, ...category.route.split("/"), "index.html"), documentHtml({ title: `${category.label} e imprimir gratis | Colorear Paraíso`, description: category.description, canonical, ogImage: { url: `${baseUrl}/assets/categories/${category.slug}-cover-640.webp`, width: 640, height: 640, alt: category.coverAlt }, body, structuredData }));
 
   for (const item of category.items) {
@@ -326,7 +373,7 @@ const catalogStructured = { "@context": "https://schema.org", "@type": "Collecti
 const catalogBody = `${header("catalog")}<main id="contenido-principal">${breadcrumbs([{ name: "Inicio", href: "/" }, { name: "Dibujos para colorear" }])}<section class="page-hero"><div class="container"><div><p class="eyebrow">Galería para imprimir</p><h1>Dibujos para colorear gratis</h1><p>Elige entre ${prepared.length} dibujos para colorear en ${categories.length} categorías. Imprime cada lámina o descárgala gratis en alta resolución.</p></div><form class="search-box" action="/para-colorear/#resultados" method="get" role="search" data-search-form id="buscar"><label class="search-field">${iconSearch}<span class="visually-hidden">Buscar dibujos para colorear</span><input type="search" name="q" placeholder="Buscar gatos, dinosaurios, coches…" autocomplete="off" data-catalog-search></label><button class="button" type="submit">Buscar</button></form></div></section><section class="section section-tint" aria-labelledby="categorias" data-category-section><div class="container"><div class="section-header"><p class="eyebrow">Categorías</p><h2 id="categorias">Elige tu tema favorito</h2></div><div class="category-grid">${categories.map(categoryCard).join("")}</div></div></section><section class="section hidden" aria-labelledby="resultados" data-results-section><div class="container"><div class="catalog-toolbar"><h2 id="resultados" data-results-heading>Resultados de búsqueda</h2><span class="result-count" data-result-count></span></div><div class="coloring-grid" data-catalog>${prepared.map(({ category, item }) => coloringCard(category, item)).join("")}</div><div class="empty-state hidden" data-empty-state><h3>No hemos encontrado resultados</h3><p>Prueba con una palabra más corta, como «gato», «dinosaurio», «coche» o «princesa».</p></div></div></section><aside class="ad-slot" aria-label="Espacio reservado para publicidad"></aside></main>${footer(categories)}`;
 write(path.join(dist, "para-colorear", "index.html"), documentHtml({ title: "Dibujos para colorear gratis para imprimir | Colorear Paraíso", description: "Elige dibujos para colorear gratis, listos para imprimir o descargar. Descubre cientos de diseños infantiles organizados por temas para todas las edades.", canonical: `${baseUrl}/para-colorear/`, ogImage: { url: `${baseUrl}/assets/categories/${categories[0].slug}-cover-640.webp`, width: 640, height: 640, alt: categories[0].coverAlt }, body: catalogBody, structuredData: catalogStructured }));
 
-const homeSlugs = ["dinosaurios", "gatos", "perros", "coches", "unicornios", "princesas", "navidad", "pascua", "tractores", "universo", "caballos", "formula-1"];
+const homeSlugs = ["kawaii", "capibaras", "mandalas", "futbol", "dinosaurios", "gatos", "perros", "coches", "unicornios", "princesas", "navidad", "ajolotes"];
 const homeCategories = homeSlugs.map((slug) => categories.find((category) => category.slug === slug)).filter(Boolean);
 const featuredCategory = categories.find((category) => category.slug === "dinosaurios") || categories[0];
 const featuredItem = featuredCategory.items[0];
