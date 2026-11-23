@@ -349,6 +349,160 @@
           "keywords": "balón gol portería red escuadra fútbol colorear imprimir"
         }
       ]
+    },
+    {
+      "name": "Hadas",
+      "slug": "hadas",
+      "route": "para-colorear/hadas",
+      "label": "Dibujos de hadas para colorear",
+      "seoHeading": "Hadas para colorear para niños",
+      "coverAlt": "Hada original sentada sobre una flor para colorear",
+      "description": "Descubre dibujos de hadas para colorear e imprimir gratis: hadas con flores, alas, luna y casas mágicas en diseños originales.",
+      "intro": "Elige entre 6 hadas originales en jardines y bosques mágicos. Imprime cada dibujo gratis en A4 o descarga la imagen en alta resolución.",
+      "seoParagraphs": [
+        "Las hadas despiertan la imaginación con sus alas, jardines y pequeños hogares escondidos en la naturaleza. Esta colección reúne escenas originales con flores, luna, setas y momentos de amistad, sin utilizar personajes de películas o marcas.",
+        "Abre tu dibujo de hada favorito para imprimir únicamente la lámina en papel A4. También puedes descargar gratis la imagen original en alta resolución y colorearla en casa o en el colegio."
+      ],
+      "items": [
+        {"sourceFile":"hada-sobre-una-flor.png","slug":"hada-sobre-una-flor-para-colorear","title":"Hada sobre una flor para colorear","alt":"Hada original sentada sobre una gran flor con mariposas para colorear","description":"Pequeña hada descansa sobre una flor rodeada de hojas y mariposas. Descarga o imprime gratis esta lámina mágica en A4.","age":"a partir de 5 años","keywords":"hada flor mariposas alas jardín mágico colorear"},
+        {"sourceFile":"hada-de-la-luna.png","slug":"hada-de-la-luna-para-colorear","title":"Hada de la luna para colorear","alt":"Hada volando junto a la luna creciente y las estrellas para colorear","description":"Hada original vuela junto a una luna creciente y pequeñas estrellas. Dibujo gratuito listo para descargar o imprimir.","age":"a partir de 5 años","keywords":"hada luna estrellas noche magia colorear imprimir"},
+        {"sourceFile":"hada-en-el-bosque-de-setas.png","slug":"hada-en-el-bosque-de-setas-para-colorear","title":"Hada en el bosque de setas para colorear","alt":"Hada con farol caminando entre grandes setas del bosque para colorear","description":"Hada con un pequeño farol explora un bosque de setas y helechos. Imprime gratis esta escena de cuento en papel A4.","age":"a partir de 5 años","keywords":"hada bosque setas farol helechos cuento colorear"},
+        {"sourceFile":"hada-con-alas-de-mariposa.png","slug":"hada-con-alas-de-mariposa-para-colorear","title":"Hada con alas de mariposa para colorear","alt":"Hada original con grandes alas de mariposa en un prado para colorear","description":"Hada de grandes alas inspiradas en una mariposa posa entre flores. Lámina original gratis para imprimir y colorear.","age":"a partir de 6 años","keywords":"hada alas mariposa flores prado colorear gratis"},
+        {"sourceFile":"casa-de-hadas-en-un-arbol.png","slug":"casa-de-hadas-en-un-arbol-para-colorear","title":"Casa de hadas en un árbol para colorear","alt":"Casa de hadas con puerta redonda dentro de un árbol para colorear","description":"Casa mágica con puerta redonda y ventanas se esconde en el tronco de un árbol. Descarga o imprime gratis el dibujo.","age":"a partir de 5 años","keywords":"casa hadas árbol puerta jardín mágico colorear"},
+        {"sourceFile":"dos-hadas-tomando-el-te.png","slug":"dos-hadas-tomando-el-te-para-colorear","title":"Dos hadas tomando el té para colorear","alt":"Dos hadas amigas tomando el té sobre asientos de tronco para colorear","description":"Dos hadas originales celebran una pequeña merienda entre flores. Imprime gratis esta escena de amistad en formato A4.","age":"a partir de 6 años","keywords":"hadas amigas té merienda flores amistad colorear"}
+      ]
+    },
+    {
+      "name": "Comida y dulces",
+      "slug": "comida-y-dulces",
+      "route": "para-colorear/comida-y-dulces",
+      "label": "Dibujos de comida y dulces para colorear",
+      "seoHeading": "Comida y dulces para colorear para niños",
+      "coverAlt": "Pizza con diferentes ingredientes para colorear e imprimir",
+      "description": "Descubre comida y dulces para colorear e imprimir gratis: pizza, helado, cupcake, tortitas, pasta y una divertida merienda.",
+      "intro": "Colorea 6 platos y dulces originales con formas claras y reconocibles. Todos se pueden descargar gratis o imprimir en papel A4.",
+      "seoParagraphs": [
+        "Los dibujos de comida permiten practicar muchos colores y reconocer ingredientes cotidianos. Esta colección incluye pizza, pasta, tortitas, helado, cupcake y una mesa de merienda sin envases, marcas ni personajes comerciales.",
+        "Cada dibujo de comida y dulces está disponible gratis y sin registro. Puedes imprimir la lámina en formato A4 o descargar el archivo original para utilizarlo en casa o en actividades escolares."
+      ],
+      "items": [
+        {"sourceFile":"pizza-con-ingredientes.png","slug":"pizza-con-ingredientes-para-colorear","title":"Pizza con ingredientes para colorear","alt":"Pizza redonda con queso, verduras y una porción separada para colorear","description":"Pizza con queso, champiñones, tomate y pimiento lista para colorear. Descarga o imprime gratis esta lámina A4.","age":"a partir de 4 años","keywords":"pizza ingredientes queso verduras comida colorear imprimir"},
+        {"sourceFile":"cupcake-con-fresa.png","slug":"cupcake-con-fresa-para-colorear","title":"Cupcake con fresa para colorear","alt":"Cupcake decorado con crema, fresa y virutas para colorear","description":"Cupcake sobre un plato con crema, fresa y pequeñas virutas. Dibujo de dulce gratis para imprimir y colorear.","age":"a partir de 4 años","keywords":"cupcake fresa crema pastel dulce colorear gratis"},
+        {"sourceFile":"helado-con-tres-bolas.png","slug":"helado-con-tres-bolas-para-colorear","title":"Helado con tres bolas para colorear","alt":"Cucurucho con tres bolas de helado y una cereza para colorear","description":"Gran cucurucho con tres bolas de helado, barquillo y cereza. Imprime gratis el dibujo o descarga la imagen original.","age":"a partir de 4 años","keywords":"helado cucurucho bolas cereza postre colorear"},
+        {"sourceFile":"tortitas-con-fruta.png","slug":"tortitas-con-fruta-para-colorear","title":"Tortitas con fruta para colorear","alt":"Torre de tortitas con fresas, arándanos y sirope para colorear","description":"Tortitas apiladas con fresas, arándanos y un poco de sirope. Lámina gratuita preparada para imprimir en A4.","age":"a partir de 4 años","keywords":"tortitas fruta fresas desayuno sirope colorear"},
+        {"sourceFile":"plato-de-espaguetis.png","slug":"plato-de-espaguetis-para-colorear","title":"Plato de espaguetis para colorear","alt":"Plato de espaguetis con tomate, albahaca y tenedor para colorear","description":"Plato de espaguetis con tomate y hojas de albahaca junto a un tenedor. Descarga o imprime gratis el dibujo.","age":"a partir de 5 años","keywords":"espaguetis pasta tomate albahaca plato colorear"},
+        {"sourceFile":"mesa-de-merienda.png","slug":"mesa-de-merienda-para-colorear","title":"Mesa de merienda para colorear","alt":"Mesa con fruta, bocadillos, galletas y limonada para colorear","description":"Merienda preparada con fruta, pequeños bocadillos, galletas y limonada. Escena original gratis para colorear.","age":"a partir de 5 años","keywords":"merienda fruta bocadillos galletas limonada colorear"}
+      ]
+    },
+    {
+      "name": "Animales marinos",
+      "slug": "animales-marinos",
+      "route": "para-colorear/animales-marinos",
+      "label": "Dibujos de animales marinos para colorear",
+      "seoHeading": "Animales marinos para colorear para niños",
+      "coverAlt": "Delfín saltando sobre las olas para colorear e imprimir",
+      "description": "Descubre animales marinos para colorear e imprimir gratis: delfines, tiburones, ballenas, pulpos, caballitos de mar y arrecifes.",
+      "intro": "Sumérgete en 6 escenas originales del océano. Descarga o imprime gratis en A4 cada dibujo de animales marinos.",
+      "seoParagraphs": [
+        "El océano alberga animales de formas muy diferentes. En esta colección los niños pueden colorear un delfín, un tiburón, una ballena con su cría, un pulpo, un caballito de mar y una escena de arrecife.",
+        "Las láminas tienen líneas claras y se pueden imprimir gratis en papel A4. También está disponible la descarga de cada imagen original en alta resolución y sin registro."
+      ],
+      "items": [
+        {"sourceFile":"delfin-saltando-sobre-las-olas.png","slug":"delfin-saltando-sobre-las-olas-para-colorear","title":"Delfín saltando sobre las olas para colorear","alt":"Delfín saltando por encima de las olas del mar para colorear","description":"Delfín amistoso salta sobre dos olas bajo el sol. Dibujo marino gratuito listo para imprimir o descargar.","age":"a partir de 4 años","keywords":"delfín saltando olas océano mar colorear imprimir"},
+        {"sourceFile":"tiburon-bajo-el-mar.png","slug":"tiburon-bajo-el-mar-para-colorear","title":"Tiburón bajo el mar para colorear","alt":"Tiburón nadando sobre el fondo marino con algas y burbujas para colorear","description":"Tiburón reconocible nada entre algas y burbujas sobre el fondo marino. Imprime gratis esta lámina A4.","age":"a partir de 5 años","keywords":"tiburón mar algas burbujas océano colorear"},
+        {"sourceFile":"ballena-con-su-cria.png","slug":"ballena-con-su-cria-para-colorear","title":"Ballena con su cría para colorear","alt":"Ballena y su cría nadando juntas bajo el agua para colorear","description":"Gran ballena nada junto a su pequeña cría entre burbujas. Descarga o imprime gratis este dibujo del océano.","age":"a partir de 4 años","keywords":"ballena cría bebé océano nadando colorear gratis"},
+        {"sourceFile":"pulpo-entre-corales.png","slug":"pulpo-entre-corales-para-colorear","title":"Pulpo entre corales para colorear","alt":"Pulpo sonriente con ocho brazos entre corales y conchas para colorear","description":"Pulpo de ocho brazos descansa entre corales, conchas y plantas. Lámina marina gratis para imprimir y colorear.","age":"a partir de 4 años","keywords":"pulpo ocho brazos corales conchas mar colorear"},
+        {"sourceFile":"caballito-de-mar.png","slug":"caballito-de-mar-para-colorear","title":"Caballito de mar para colorear","alt":"Caballito de mar nadando entre plantas, burbujas y una estrella marina para colorear","description":"Caballito de mar nada erguido junto a plantas y una estrella marina. Dibujo gratis preparado para papel A4.","age":"a partir de 4 años","keywords":"caballito de mar plantas burbujas estrella colorear"},
+        {"sourceFile":"arrecife-con-animales-marinos.png","slug":"arrecife-con-animales-marinos-para-colorear","title":"Arrecife con animales marinos para colorear","alt":"Tortuga, peces y estrella de mar en un arrecife de coral para colorear","description":"Tortuga, peces y estrella marina exploran un arrecife de coral. Imprime gratis la escena o descarga la imagen.","age":"a partir de 5 años","keywords":"arrecife coral tortuga peces estrella mar colorear"}
+      ]
+    },
+    {
+      "name": "Dibujos fáciles",
+      "slug": "dibujos-faciles",
+      "route": "para-colorear/dibujos-faciles",
+      "label": "Dibujos fáciles para colorear",
+      "seoHeading": "Dibujos fáciles para niños de preescolar",
+      "coverAlt": "Sol sonriente de trazos gruesos para colorear fácilmente",
+      "description": "Descubre dibujos fáciles para colorear e imprimir gratis, con líneas gruesas y espacios grandes para niños de 2, 3 y 4 años.",
+      "intro": "Seis dibujos muy sencillos con contornos gruesos y grandes espacios, pensados para las primeras actividades de coloreado.",
+      "seoParagraphs": [
+        "Los dibujos fáciles ayudan a los niños pequeños a practicar el agarre del lápiz y a colorear dentro de formas amplias. El sol, la manzana, la mariposa, el osito, el tren y la casa tienen pocos detalles y contornos especialmente gruesos.",
+        "Estas láminas están pensadas para preescolar y para niños de 2 a 4 años. Se pueden imprimir gratis en A4 o descargar en alta resolución sin registro."
+      ],
+      "items": [
+        {"sourceFile":"sol-facil-para-preescolar.png","slug":"sol-facil-para-colorear","title":"Sol fácil para colorear","alt":"Sol sonriente con rayos grandes y dos nubes para colorear fácilmente","description":"Sol sonriente con rayos amplios y dos nubes sencillas. Dibujo fácil gratis para las primeras actividades de coloreado.","age":"de 2 a 4 años","keywords":"sol fácil preescolar niños 2 3 4 años colorear"},
+        {"sourceFile":"mariposa-facil-para-preescolar.png","slug":"mariposa-facil-para-colorear","title":"Mariposa fácil para colorear","alt":"Mariposa sencilla con alas redondas y espacios grandes para colorear","description":"Mariposa de contorno grueso con grandes alas simétricas. Imprime gratis esta lámina sencilla para preescolar.","age":"de 2 a 4 años","keywords":"mariposa fácil alas grandes preescolar colorear"},
+        {"sourceFile":"manzana-facil-para-preescolar.png","slug":"manzana-facil-para-colorear","title":"Manzana fácil para colorear","alt":"Manzana grande con hoja y contorno grueso para colorear fácilmente","description":"Una manzana grande con hoja y muy pocos detalles. Dibujo gratis ideal para niños que empiezan a colorear.","age":"de 2 a 4 años","keywords":"manzana fácil fruta preescolar contorno grueso colorear"},
+        {"sourceFile":"tren-de-juguete-facil.png","slug":"tren-de-juguete-facil-para-colorear","title":"Tren de juguete fácil para colorear","alt":"Tren de juguete sencillo con locomotora y dos vagones para colorear","description":"Tren de juguete formado por una locomotora y dos vagones grandes. Descarga o imprime gratis la lámina fácil.","age":"de 2 a 4 años","keywords":"tren juguete fácil vagones preescolar colorear imprimir"},
+        {"sourceFile":"osito-de-peluche-facil.png","slug":"osito-de-peluche-facil-para-colorear","title":"Osito de peluche fácil para colorear","alt":"Osito de peluche sentado con lazo y formas grandes para colorear","description":"Osito de peluche sentado con un sencillo lazo. Dibujo de líneas gruesas preparado para niños pequeños.","age":"de 2 a 4 años","keywords":"osito peluche fácil lazo niños pequeños colorear"},
+        {"sourceFile":"casa-y-arbol-faciles.png","slug":"casa-y-arbol-faciles-para-colorear","title":"Casa y árbol fáciles para colorear","alt":"Casa sencilla junto a un árbol redondo y un sol para colorear","description":"Casa simple con puerta, ventanas, árbol y sol. Imprime gratis este dibujo fácil con grandes espacios para colorear.","age":"de 2 a 4 años","keywords":"casa árbol sol fácil preescolar colorear gratis"}
+      ]
+    },
+    {
+      "name": "Día de Muertos",
+      "slug": "dia-de-muertos",
+      "route": "para-colorear/dia-de-muertos",
+      "label": "Dibujos del Día de Muertos para colorear",
+      "seoHeading": "Día de Muertos para colorear para niños",
+      "coverAlt": "Ofrenda tradicional del Día de Muertos para colorear",
+      "description": "Descubre dibujos del Día de Muertos para colorear e imprimir gratis: ofrendas, calaveras, cempasúchil, velas y papel picado.",
+      "intro": "Colorea 6 escenas originales y respetuosas inspiradas en la tradición mexicana del Día de Muertos. Descarga o imprime gratis en A4.",
+      "seoParagraphs": [
+        "El Día de Muertos es una tradición mexicana dedicada al recuerdo de familiares y seres queridos. Estas láminas muestran de forma respetuosa ofrendas, flores de cempasúchil, velas, papel picado, música y preparativos familiares.",
+        "Todos los dibujos son originales y no reproducen personajes de películas. Puedes imprimir cada escena gratis en formato A4 o descargar la imagen en alta resolución."
+      ],
+      "items": [
+        {"sourceFile":"altar-de-dia-de-muertos.png","slug":"altar-de-dia-de-muertos-para-colorear","title":"Altar del Día de Muertos para colorear","alt":"Ofrenda de tres niveles con velas, flores, pan y fruta para colorear","description":"Ofrenda tradicional con velas, cempasúchil, pan, fruta y marcos sin retratos. Lámina gratis para imprimir en A4.","age":"a partir de 6 años","keywords":"altar ofrenda Día de Muertos velas flores pan colorear"},
+        {"sourceFile":"calavera-mexicana-floral.png","slug":"calavera-mexicana-floral-para-colorear","title":"Calavera mexicana floral para colorear","alt":"Calavera mexicana decorada con flores y corazones para colorear","description":"Calavera de azúcar con decoración simétrica de flores y corazones. Descarga o imprime gratis el dibujo original.","age":"a partir de 7 años","keywords":"calavera mexicana azúcar flores corazones colorear"},
+        {"sourceFile":"camino-de-flores-de-cempasuchil.png","slug":"camino-de-cempasuchil-para-colorear","title":"Camino de cempasúchil para colorear","alt":"Camino de flores de cempasúchil con velas y papel picado para colorear","description":"Camino de flores de cempasúchil conduce hasta un arco iluminado por velas. Imprime gratis esta escena tradicional.","age":"a partir de 6 años","keywords":"cempasúchil camino flores velas papel picado colorear"},
+        {"sourceFile":"esqueleto-musico-festivo.png","slug":"esqueleto-musico-para-colorear","title":"Esqueleto músico para colorear","alt":"Esqueleto festivo tocando una guitarra entre flores para colorear","description":"Esqueleto músico de aspecto amistoso toca la guitarra rodeado de flores. Lámina original y familiar para colorear.","age":"a partir de 6 años","keywords":"esqueleto músico guitarra fiesta flores colorear"},
+        {"sourceFile":"papel-picado-y-velas.png","slug":"papel-picado-y-velas-para-colorear","title":"Papel picado y velas para colorear","alt":"Banderines de papel picado sobre velas y flores para colorear","description":"Banderines de papel picado decoran un conjunto de velas, flores y fruta. Descarga o imprime gratis el dibujo.","age":"a partir de 7 años","keywords":"papel picado velas flores decoración mexicana colorear"},
+        {"sourceFile":"familia-preparando-la-ofrenda.png","slug":"familia-preparando-la-ofrenda-para-colorear","title":"Familia preparando la ofrenda para colorear","alt":"Familia colocando flores y fruta en una ofrenda del Día de Muertos para colorear","description":"Una familia prepara junta la ofrenda colocando flores, fruta y velas. Escena respetuosa gratis para imprimir.","age":"a partir de 6 años","keywords":"familia ofrenda flores fruta tradición mexicana colorear"}
+      ]
+    },
+    {
+      "name": "Alebrijes",
+      "slug": "alebrijes",
+      "route": "para-colorear/alebrijes",
+      "label": "Alebrijes para colorear",
+      "seoHeading": "Alebrijes mexicanos para colorear",
+      "coverAlt": "Alebrije original de jaguar con alas de águila para colorear",
+      "description": "Descubre alebrijes para colorear e imprimir gratis: criaturas fantásticas originales inspiradas respetuosamente en el arte mexicano.",
+      "intro": "Elige entre 6 alebrijes originales que combinan distintos animales y patrones decorativos. Imprime o descarga gratis cada lámina.",
+      "seoParagraphs": [
+        "Los alebrijes son criaturas fantásticas del arte popular mexicano que combinan rasgos de distintos animales y decoraciones llenas de imaginación. Esta colección presenta diseños completamente originales de dificultad infantil.",
+        "Cada alebrije tiene zonas cerradas y patrones claros para experimentar con muchos colores. Las imágenes se pueden imprimir gratis en A4 o descargar en alta resolución."
+      ],
+      "items": [
+        {"sourceFile":"alebrije-jaguar-aguila.png","slug":"alebrije-jaguar-aguila-para-colorear","title":"Alebrije de jaguar y águila para colorear","alt":"Alebrije original con cuerpo de jaguar y alas de águila para colorear","description":"Criatura fantástica combina cuerpo de jaguar, alas de águila y patrones florales. Dibujo original gratis para imprimir.","age":"a partir de 7 años","keywords":"alebrije jaguar águila alas arte mexicano colorear"},
+        {"sourceFile":"alebrije-conejo-ciervo.png","slug":"alebrije-conejo-ciervo-para-colorear","title":"Alebrije de conejo y ciervo para colorear","alt":"Alebrije con cuerpo de conejo, orejas largas y cuernos de ciervo para colorear","description":"Alebrije amistoso mezcla un conejo con pequeños cuernos de ciervo. Descarga o imprime gratis la lámina decorada.","age":"a partir de 7 años","keywords":"alebrije conejo ciervo cuernos patrones colorear"},
+        {"sourceFile":"alebrije-lagarto-mariposa.png","slug":"alebrije-lagarto-mariposa-para-colorear","title":"Alebrije de lagarto y mariposa para colorear","alt":"Alebrije de lagarto con grandes alas de mariposa para colorear","description":"Lagarto fantástico con alas de mariposa y cola en espiral. Imprime gratis este alebrije de patrones amplios.","age":"a partir de 7 años","keywords":"alebrije lagarto mariposa alas cola colorear"},
+        {"sourceFile":"alebrije-perro-dragon.png","slug":"alebrije-perro-dragon-para-colorear","title":"Alebrije de perro y dragón para colorear","alt":"Alebrije de perro con alas, cuernos y cola de dragón para colorear","description":"Perro fantástico luce alas, cuernos y una larga cola decorada. Dibujo original gratis para descargar o imprimir.","age":"a partir de 7 años","keywords":"alebrije perro dragón alas cuernos arte colorear"},
+        {"sourceFile":"alebrije-buho-gato.png","slug":"alebrije-buho-gato-para-colorear","title":"Alebrije de búho y gato para colorear","alt":"Alebrije con rostro y alas de búho sobre cuerpo de gato para colorear","description":"Alebrije combina los ojos y alas de un búho con el cuerpo y la cola de un gato. Lámina gratis en formato A4.","age":"a partir de 7 años","keywords":"alebrije búho gato alas cola patrones colorear"},
+        {"sourceFile":"alebrije-tortuga-colibri.png","slug":"alebrije-tortuga-colibri-para-colorear","title":"Alebrije de tortuga y colibrí para colorear","alt":"Alebrije de tortuga con alas y cabeza de colibrí para colorear","description":"Tortuga fantástica incorpora alas y rasgos de colibrí con decoración floral. Descarga o imprime gratis el dibujo.","age":"a partir de 7 años","keywords":"alebrije tortuga colibrí alas caparazón colorear"}
+      ]
+    },
+    {
+      "name": "Cumpleaños",
+      "slug": "cumpleanos",
+      "route": "para-colorear/cumpleanos",
+      "label": "Dibujos de cumpleaños para colorear",
+      "seoHeading": "Cumpleaños para colorear para niños",
+      "coverAlt": "Tarta de cumpleaños con velas y fresas para colorear",
+      "description": "Descubre dibujos de cumpleaños para colorear e imprimir gratis: tartas, globos, regalos, fiestas, animales y una piñata.",
+      "intro": "Celebra con 6 dibujos originales de cumpleaños. Descarga gratis cada imagen o imprímela en formato A4 para la fiesta.",
+      "seoParagraphs": [
+        "Los dibujos de cumpleaños sirven para preparar una fiesta, decorar una tarjeta o entretener a los invitados. Esta colección incluye tartas, globos, regalos, una piñata, animales y una celebración infantil sin personajes comerciales.",
+        "Todas las láminas son gratuitas y no incluyen edades ni mensajes escritos, por lo que sirven para cualquier cumpleaños. Imprime el dibujo en A4 o descarga la imagen original."
+      ],
+      "items": [
+        {"sourceFile":"tarta-de-cumpleanos-con-velas.png","slug":"tarta-de-cumpleanos-con-velas-para-colorear","title":"Tarta de cumpleaños con velas para colorear","alt":"Tarta de dos pisos con velas, fresas y estrellas para colorear","description":"Tarta de cumpleaños de dos pisos con velas, crema y fresas. Lámina gratis sin número de edad para imprimir.","age":"a partir de 4 años","keywords":"tarta cumpleaños velas fresas fiesta colorear imprimir"},
+        {"sourceFile":"globos-y-regalos-de-cumpleanos.png","slug":"globos-y-regalos-de-cumpleanos-para-colorear","title":"Globos y regalos de cumpleaños para colorear","alt":"Grupo de globos junto a regalos envueltos para colorear","description":"Globos redondos y de estrella acompañan varios regalos con lazos. Descarga o imprime gratis el dibujo festivo.","age":"a partir de 4 años","keywords":"globos regalos cumpleaños lazos fiesta colorear"},
+        {"sourceFile":"fiesta-de-cumpleanos-infantil.png","slug":"fiesta-de-cumpleanos-infantil-para-colorear","title":"Fiesta de cumpleaños infantil para colorear","alt":"Tres niños celebrando alrededor de una tarta de cumpleaños para colorear","description":"Tres niños con gorros de fiesta celebran juntos alrededor de una tarta. Escena original gratis para imprimir.","age":"a partir de 5 años","keywords":"fiesta cumpleaños niños tarta celebración colorear"},
+        {"sourceFile":"pinata-de-cumpleanos.png","slug":"pinata-de-cumpleanos-para-colorear","title":"Piñata de cumpleaños para colorear","alt":"Piñata original en forma de estrella sobre regalos y confeti para colorear","description":"Piñata de estrella cuelga sobre un regalo rodeado de confeti. Imprime gratis esta lámina de cumpleaños.","age":"a partir de 4 años","keywords":"piñata estrella regalo confeti cumpleaños colorear"},
+        {"sourceFile":"animales-en-una-fiesta.png","slug":"animales-en-una-fiesta-de-cumpleanos-para-colorear","title":"Animales en una fiesta de cumpleaños para colorear","alt":"Oso, conejo y zorro celebrando una fiesta con tarta para colorear","description":"Oso, conejo y zorro originales celebran con una tarta y gorros de fiesta. Dibujo gratuito para colorear.","age":"a partir de 4 años","keywords":"animales fiesta cumpleaños oso conejo zorro colorear"},
+        {"sourceFile":"mesa-de-fiesta-con-guirnalda.png","slug":"mesa-de-fiesta-con-guirnalda-para-colorear","title":"Mesa de fiesta con guirnalda para colorear","alt":"Mesa de cumpleaños con dulces, fruta, regalos y guirnalda para colorear","description":"Mesa de fiesta con cupcakes, fruta, bebidas, regalos y una guirnalda sin texto. Descarga o imprime gratis.","age":"a partir de 5 años","keywords":"mesa fiesta guirnalda dulces regalos cumpleaños colorear"}
+      ]
     }
   ]
 }
